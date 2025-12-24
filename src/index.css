@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Uncial+Antiqua&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Erica+One&family=Uncial+Antiqua&display=swap');
+
+
+@import "tailwindcss";
+
+@theme {
+  --font-emblema: "Emblema One", system-ui;
+  --font-uncial: "Uncial Antiqua", system-ui;
+  --font-erica: "Erica One", system-ui;
+}
+
+html {
+  scroll-behavior: smooth;
+}
