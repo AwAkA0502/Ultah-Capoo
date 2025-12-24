@@ -30,7 +30,7 @@ function App() {
           <img src="kuromi2.png" className="w-40 md:w-53.75 h-auto md:hiddenflex" alt="kuromi left" />
           
           <div className="flex flex-col items-center justify-center gap-8 md:gap-11">
-            <div className="flex flex-col pt-10 md:pt-32 gap-3 items-center justify-center text-center">
+            <div className="flex flex-col pt-10 md:pt-18 gap-3 items-center justify-center text-center">
               <p className="font-bold text-white text-sm md:text-base">25 December</p>
               <img src="hbdcapoo.png" alt="HBD Capoo" className="w-full max-w-[300px] md:max-w-[500px]" />
               <button className="flex px-10 md:px-16 py-3 rounded-[14px] border-2 border-black font-bold text-lg md:text-xl bg-[#F590B7] shadow-[4px_4px_0px_black] md:shadow-[6px_6px_0px_black] transition-all active:translate-x-[4px] active:translate-y-[4px] active:shadow-none">
@@ -73,7 +73,7 @@ function App() {
             {isVoucherOpen && (
               <motion.div
                 initial={{ y: 0, opacity: 0 }}
-                animate={{ y: -180, opacity: 1 }}
+                animate={{ y: -250, opacity: 1 }}
                 exit={{ y: 0, opacity: 0 }}
                 transition={{ type: "spring", stiffness: 200, damping: 15 }}
                 className="absolute inset-0 z-0 flex justify-center"
